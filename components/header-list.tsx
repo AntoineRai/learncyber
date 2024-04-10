@@ -10,6 +10,7 @@ import Link from "next/link";
 
 const HeaderList = () => {
   return (
+    <div className="w-full flex flex-row items-center justify-center">
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
@@ -26,6 +27,7 @@ const HeaderList = () => {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
+    </div>
   );
 };
 
