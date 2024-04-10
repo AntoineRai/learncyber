@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { Montserrat as FontSans } from "next/font/google";
 import "./globals.css";
 
+import Header from "@/components/header";
+
 import { cn } from "@/lib/utils";
 
 const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
@@ -32,7 +34,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <main className="h-screen w-full flex flex-col justify-center items-center">
+            <Header />
           {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>
