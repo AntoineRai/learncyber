@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Testimonial = () => {
 
     return (
-      <div className='w-full h-80'>
+      <div className='w-full h-60 border-y-2'>
         <div className='h-1/3 text-center flex flex-col items-center justify-center' >
             <h1 className="font-bold text-2xl">Ils nous ont fais confiance</h1>
         </div>
