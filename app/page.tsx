@@ -5,9 +5,10 @@ export default function Home() {
   return (
 
     <>
-      <div className="max-h-screen flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <Presentation />
       </div>
+      <Testimonial/>
     </>
   );
 }
