@@ -34,7 +34,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="h-screen w-full flex flex-col justify-center items-center">
+          <main className="w-full flex flex-col justify-center items-center">
             <Header />
           {children}
           </main>

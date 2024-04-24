@@ -4,7 +4,7 @@ const Presentation = () => {
 
     return (
       <div className="flex flex-row w-full px-16">
-        <div className="mx-4 w-1/2 px-8">
+        <div className="flex flex-col justify-center w-1/2 px-8">
             <h1 className="font-bold text-xl underline text-left mb-8">LearnCyber</h1>
             <span className="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
