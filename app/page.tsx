@@ -1,3 +1,4 @@
+import HeroStructure from "@/components/hero-structure";
 import Presentation from "@/components/presentation";
 import Testimonial from "@/components/testimonial";
 
@@ -9,6 +10,7 @@ export default function Home() {
         <Presentation />
       </div>
       <Testimonial/>
+      <HeroStructure/>
     </>
   );
 }
