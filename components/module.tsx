@@ -1,26 +1,32 @@
 import Image from 'next/image'
 import {Carousel,CarouselContent,CarouselItem,CarouselNext,CarouselPrevious,} from "@/components/ui/carousel"
 import { Card, CardContent } from "@/components/ui/card"
+import Test from './module-component/test';
 
 const Module = () => {
 
     return (
-      <div className="h-screen w-full ">
-        <div className='flex items-center justify-center mt-[5em]'>
-          <Carousel className="w-full max-w-xs">
+      <div className="h-screen w-full  flex items-center justify-center">
+          <Carousel className="w-full mx-20">
             <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
-                <CarouselItem key={index}>
+                <CarouselItem >
                   <div className="p-1">
-                    <span className="text-4xl font-semibold flex justify-center items-center">{index + 1}</span>
+                    <Card className='h-[32em]'>
+                        <Test/>
+                    </Card>
                   </div>
                 </CarouselItem>
-              ))}
+                <CarouselItem >
+                  <div className="p-1">
+                    <Card className='h-[32em]'>
+                        <Test/>
+                    </Card>
+                  </div>
+                </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
           </Carousel>
-        </div>
       </div>
     );
   };
