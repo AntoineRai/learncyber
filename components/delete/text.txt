@@ -1,0 +1,6 @@
+Pour le site web :
+
+- Faire le design pour le responsive
+- Faire la redirection sur les composants grâce aux menu header
+- Ajouter un Form sur le formulaire de contact
+- Ajouter les différents modules dans module pour le composant en reprenant ce que j'ai fait

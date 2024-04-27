@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import {Carousel,CarouselContent,CarouselItem,CarouselNext,CarouselPrevious,} from "@/components/ui/carousel"
 import { Card, CardContent } from "@/components/ui/card"
-import Test from './module-component/test';
+import Introduction from './module-component/introduction';
 
 const Module = () => {
 
@@ -11,15 +11,15 @@ const Module = () => {
             <CarouselContent>
                 <CarouselItem >
                   <div className="p-1">
-                    <Card className='h-[32em]'>
-                        <Test/>
+                    <Card className='h-[36em]'>
+                        <Introduction/>
                     </Card>
                   </div>
                 </CarouselItem>
                 <CarouselItem >
                   <div className="p-1">
-                    <Card className='h-[32em]'>
-                        <Test/>
+                    <Card className='h-[36em]'>
+                        <Introduction/>
                     </Card>
                   </div>
                 </CarouselItem>
