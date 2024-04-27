@@ -6,7 +6,7 @@ import Test from './module-component/test';
 const Module = () => {
 
     return (
-      <div className="h-screen w-full  flex items-center justify-center">
+      <div className="h-screen w-full flex items-center justify-center border-b-2">
           <Carousel className="w-full mx-20">
             <CarouselContent>
                 <CarouselItem >
